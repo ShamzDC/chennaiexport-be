@@ -1,0 +1,1469 @@
+syntax = "proto3";
+option csharp_namespace = "CHEExportsProto";
+import "CommonTypes.proto";
+package Application;
+
+message protoCustomer { 
+        int64 customer_id = 1 ;
+        string customer_name = 2 ;
+        string customer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+        string status_description=21;
+        int32 customer_type_id=22;
+        string customer_type_value=24;
+                CommonTypes.protoMessage Msg = 26;
+}
+
+message protoCustomerSearch { 
+        int64 customer_id = 1 ;
+        string customer_name = 2 ;
+        string customer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+        string order_by_column_name = 19;
+        int32 page_size=20;
+        int32 page_number=21;
+        bool ascending=22;  
+        string istrSortColumn=23;
+        bool istrSortOrder=24; 
+}
+message protoCustomerSearchResultSet { 
+        int64 customer_id = 1 ;
+        string customer_name = 2 ;
+        string customer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        string entered_date = 13 ;
+        string changed_date = 14 ;
+        string changed_by_full_name=15;
+        string entered_by_full_name=16;
+        string status_description=17;
+        string customer_type_description=18;
+}
+message protoCustomerSearchResult { 
+    repeated protoCustomerSearchResultSet plstprotoCustomerSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoVendorSearch { 
+       int64 vendor_id = 1 ;
+        string vendor_name = 2 ;
+        string vendor_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+         string gstn_uin_number=22;
+}
+message protoVendorSearchResultSet { 
+        int64 vendor_id = 1 ;
+        string vendor_name = 2 ;
+        string vendor_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoVendorSearchResult { 
+    repeated protoVendorSearchResultSet pstprotoVendorSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+message protoVendor { 
+        int64 vendor_id = 1 ;
+        string vendor_name = 2 ;
+        string vendor_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+        CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoCompany { 
+        int64 company_id = 1 ;
+        string company_name = 2 ;
+        string company_logo = 3 ;
+        string email_id = 4 ;
+        string website = 5 ;
+        string contact_no = 6 ;
+        string address_line_1 = 7 ;
+        string address_line_2 = 8 ;
+        string address_line_3 = 9 ;
+        string city = 10 ;
+        string state = 11 ;
+        string country = 12 ;
+        string pincode = 13 ;
+        string entered_by = 14 ;
+        string entered_date = 15 ;
+        string changed_by = 16 ;
+        string changed_date = 17 ;
+          string changed_by_full_name=18;
+        string entered_by_full_name=19;
+          string gstn_uin_number=20;
+          repeated protoCompanyBankDetail lstprotoCompanyBankDetail=21;
+            CommonTypes.protoMessage Msg = 26;
+}
+message protoCompanyBankDetail { 
+        int64 company_id = 1 ;
+        int64 company_bank_id = 2 ;
+        string bank_name = 3 ;
+        string bank_acconut_number = 4 ;
+        string ifsc_code = 5 ;
+        string branch_code = 6 ;
+        string micr_code = 7 ;
+        string swift_code = 8 ;
+        string ad_code = 9 ;
+        string address_line_1 = 10 ;
+        string address_line_2 = 11 ;
+        string address_line_3 = 12 ;
+        int32 status_id = 13 ;
+        string entered_by = 14 ;
+        string entered_date = 15 ;
+        string changed_by = 16 ;
+        string changed_date = 17 ;
+          string changed_by_full_name=18;
+        string entered_by_full_name=19;
+          string status_value=20;
+           string status_description=21;
+           CommonTypes.protoMessage Msg = 26;
+}
+message protoWareHouse { 
+        int64 warehouse_id = 1 ;
+        string warehouse_name = 2 ;
+        string warehouse_ref_no = 3 ;
+        string contact_person_no = 4 ;
+        string address_line_1 = 5 ;
+        string address_line_2 = 6 ;
+        string address_line_3 = 7 ;
+        string city = 8 ;
+        string state = 9 ;
+        string country = 10 ;
+        string pincode = 11 ;
+        int32 status_id = 12 ;
+        string status_value = 13 ;
+        string entered_by = 14 ;
+        string entered_date = 15 ;
+        string changed_by = 16 ;
+        string changed_date = 17 ;
+          string changed_by_full_name=18;
+        string entered_by_full_name=19;
+        string  status_description=20;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoWareHouseSearch { 
+        int64 warehouse_id = 1 ;
+        string warehouse_name = 2 ;
+        string warehouse_ref_no = 3 ;
+        string contact_person_no = 4 ;
+        string address_line_1 = 5 ;
+        string address_line_2 = 6 ;
+        string address_line_3 = 7 ;
+        string city = 8 ;
+        string state = 9 ;
+        string country = 10 ;
+        string pincode = 11 ;
+        int32 status_id = 12 ;
+        string status_value = 13 ;
+        string entered_by = 14 ;
+        string entered_date = 15 ;
+        string changed_by = 16 ;
+        string changed_date = 17 ;
+          string changed_by_full_name=18;
+        string entered_by_full_name=19;
+        string  status_description=20;
+}
+message protoWareHouseSearchResultSet { 
+         int64 warehouse_id = 1 ;
+        string warehouse_name = 2 ;
+        string warehouse_ref_no = 3 ;
+        string contact_person_no = 4 ;
+        string address_line_1 = 5 ;
+        string address_line_2 = 6 ;
+        string address_line_3 = 7 ;
+        string city = 8 ;
+        string state = 9 ;
+        string country = 10 ;
+        string pincode = 11 ;
+        int32 status_id = 12 ;
+        string status_value = 13 ;
+        string entered_by = 14 ;
+        string entered_date = 15 ;
+        string changed_by = 16 ;
+        string changed_date = 17 ;
+          string changed_by_full_name=18;
+        string entered_by_full_name=19;
+        string  status_description=20;
+}
+message  protoWareHouseSearchResult { 
+    repeated protoWareHouseSearchResultSet plstprotoWareHouseSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+message protoOrderDetails { 
+        int64 order_detail_id = 1 ;
+        string order_ref_no = 2 ;
+        string order_date = 3 ;
+        int64 customer_id = 4 ;
+        int64 warehouse_id = 5 ;
+        string is_within_chennai = 6 ;
+        string is_invoice = 7 ;
+        int32 status_id = 8 ;
+        string status_value = 9 ;
+        string entered_by = 10 ;
+        string entered_date = 11 ;
+        string changed_by = 12 ;
+        string changed_date = 13 ;
+        string total_amount = 14 ;
+          string changed_by_full_name=15;
+        string entered_by_full_name=16;
+        string status_description=17;
+        protoLRDetails iprotoLRDetails=18;
+        protoInvoiceDetails iprotoInvoiceDetails = 19;
+        repeated protoOrderDeliverySlipDetail lstprotoOrderDeliverySlipDetail = 20;
+       int32 region_id=21;
+       string region_value=22;
+        string region_description=23;
+        string customer_Details=24;
+        string WareHouse_details=25;
+        CommonTypes.protoMessage Msg = 26;
+        protoOrderDeliverySlipDetailWithoutInvoice iprotoOrderDeliverySlipDetailWithoutInvoice=27;
+        int64 preorder_id=28;
+         string to_payee_amount=29;
+}
+message protoOrderDetailsSearch { 
+    int64 order_detail_id = 1 ;
+        string order_ref_no = 2 ;
+        string order_date = 3 ;
+        int64 customer_id = 4 ;
+        int64 warehouse_id = 5 ;
+        string is_within_chennai = 6 ;
+        string is_invoice = 7 ;
+        int32 status_id = 8 ;
+        string status_value = 9 ;
+        string entered_by = 10 ;
+        string entered_date = 11 ;
+        string changed_by = 12 ;
+        string changed_date = 13 ;
+        string total_amount = 14 ;
+       int32 region_id=21;
+       string region_value=22;
+        string order_by_column_name = 27;
+        int32 page_size=28;
+        int32 page_number=29;
+        bool ascending=30;  
+        string istrSortColumn=31;
+        bool istrSortOrder=32; 
+        string order_date_from=33;
+        string order_date_to=34;
+         CommonTypes.protoMessage Msg = 35;
+}
+message protoOrderDetailsResultSet { 
+        int64 order_detail_id = 1 ;
+        string order_ref_no = 2 ;
+        string order_date = 3 ;
+        int64 customer_id = 4 ;
+        int64 warehouse_id = 5 ;
+        string is_within_chennai = 6 ;
+        string is_invoice = 7 ;
+        int32 status_id = 8 ;
+        string status_value = 9 ;
+        string entered_by = 10 ;
+        string entered_date = 11 ;
+        string changed_by = 12 ;
+        string changed_date = 13 ;
+        string total_amount = 14 ;
+          string changed_by_full_name=15;
+        string entered_by_full_name=16;
+        string status_description=17;
+       int32 region_id=21;
+       string region_value=22;
+        string region_description=23;
+        string customer_Details=24;
+        string WareHouse_details=25;
+        int32 total_pakage=26;
+        int32 pending_pakage=27;
+       string customer_name=28;
+       string warehouse_name=29;
+   string vendor_name=30;
+}
+message protoOrderDetailsResult { 
+    repeated protoOrderDetailsResultSet plstprotoOrderDetailsResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoLRDetails { 
+        int64 lr_detail_id = 1 ;
+        int64 order_detail_id = 2 ;
+        string lr_no = 3 ;
+        string received_date = 4 ;
+        int32 transport_name_id = 5 ;
+        string transport_name_value = 6 ;
+        int64 vendor_id = 7 ;
+        string consignee_name = 8 ;
+        int32 package_type_id = 9 ;
+        string package_type_value = 10 ;
+        int32 mode_of_packing_id = 11 ;
+        string mode_of_packing_value = 12 ;
+        string net_weight = 13 ;
+        string gross_weight = 14 ;
+        string value_of_goods_as_per_invoice = 15 ;
+        string to_pay_freight_charges = 16 ;
+        string lr_photo_copy = 17 ;
+        string entered_by = 18 ;
+        string entered_date = 19 ;
+        string changed_by = 20 ;
+        string changed_date = 21 ;
+          string changed_by_full_name=22;
+        string entered_by_full_name=23;
+      string  transport_name_description=24;
+       string package_type_description=25;
+      string  mode_of_packing_description=26;
+       string Vendor_details=27;
+        CommonTypes.protoMessage Msg = 29;
+        int64 consignee_id=30;
+        string Consignee_details=31;
+  
+}
+message protoInvoiceDetails { 
+        int64 invoice_detail_id = 1 ;
+        int64 order_detail_id = 2 ;
+        string invoice_no = 3 ;
+        string invoice_date = 4 ;
+        string delivery_notes = 5 ;
+        int32 mode_of_payment_id = 6 ;
+        string mode_of_payment_value = 7 ;
+        int32 dispatched_through_id = 8 ;
+        string dispatched_through_value = 9 ;
+        int32 mode_of_packing_id = 10 ;
+        string mode_of_packing_value = 11 ;
+        int32 destination_id = 12 ;
+        string destination_value = 13 ;
+        string reference_no = 14 ;
+        string reference_date = 15 ;
+        string other_references = 16 ;
+        string buyers_order_no = 17 ;
+        string buyers_date = 18 ;
+        string dispatch_documet_no = 19 ;
+        string delivery_note_date = 20 ;
+        string terms_of_delivery = 21 ;
+        int64 vendor_id = 22 ;
+        string consignee_name = 23 ;
+        string invoice_photo_copy = 24 ;
+        string total_quantity = 25 ;
+        string taxable_value = 26 ;
+        string cgs_tax_percentage = 27 ;
+        string sgs_tax_percentage = 28 ;
+        string entered_by = 29 ;
+        string entered_date = 30 ;
+        string changed_by = 31 ;
+        string changed_date = 32 ;
+        string changed_by_full_name=33;
+        string entered_by_full_name=34;
+        string mode_of_payment_description=35;
+        string dispatched_through_description=36;
+        string mode_of_packing_description=37;
+        string destination_decscription=38;
+        string total_tax_amount=39;
+        string sgs_tax_value=40;
+        string cgs_tax_value=41;
+        string invoice_total=42;
+        string Vendor_Details=43;
+        int64 Company_id=44;
+        string Vendor_Address=45;
+        string Company_Address=46;
+        string Company_Details=47;
+         CommonTypes.protoMessage Msg = 48;
+        int64 buyer_id=49;
+       string  buyer_details=50;
+      string consignee_details=51;
+      int64 consignee_id=52;
+      string round_off=53;
+}
+
+message protoInvoiceDetailsItems{
+    int64 invoice_detail_item_id =1;
+    int64 invoice_detail_id =2;
+    int64 product_id=3;
+    string hsn_or_sac_no=4;
+    string quantity=5;
+    int32 unit_type_id=6;
+    string unit_type_value=7;
+    string unit_rate=8;
+    string amount=9;
+    string entered_by=10;
+    string entered_date=11;
+    string changed_by=12;
+    string changed_date=13;
+    string unit_type_description=14;
+    string changed_by_full_name=15;
+    string entered_by_full_name=16;
+}
+message protoInvoiceDetailsItemsList{
+    repeated protoInvoiceDetailsItems lstprotoInvoiceDetailsItems=1;
+      CommonTypes.protoMessage Msg = 2;
+}
+message protoOrderDeliverySlipDetail { 
+        int64 order_delivery_slip_detail_id = 1 ;
+        int64 order_detail_id = 2 ;
+        string amount=3;
+        string rate=4;
+        int64 product_id=5;
+        string quantity=6;
+        string delivery_slip_photo_copy = 7 ;
+        string entered_by = 10 ;
+        string entered_date = 11 ;
+        string changed_by = 12 ;
+        string changed_date = 13 ;
+          string changed_by_full_name=14;
+        string entered_by_full_name=15;
+           int32 unit_type_id=17;
+    string unit_type_value=18;
+    string unit_Description=19;
+    string ProductDetails=20;
+    string HSN_NO=21;
+     CommonTypes.protoMessage Msg = 26;
+}
+message protoOrderDeliverySlipDetailList{
+    repeated protoOrderDeliverySlipDetail lstprotoOrderDeliverySlipDetail=1;
+    CommonTypes.protoMessage Msg = 2;
+}
+
+message protoOrderDeliverySlipDetailsItems{
+    int64 order_delivery_slip_detail_items_id =1;
+    int64 order_delivery_slip_detail_id =2;
+    int64 product_id=3;
+    string quantity=5;
+    int32 unit_type_id=6;
+    string unit_type_value=7;
+    string unit_rate=8;
+    string amount=9;
+    string entered_by=10;
+    string entered_date=11;
+    string changed_by=12;
+    string changed_date=13;
+    string unit_type_description=14;
+    string changed_by_full_name=15;
+    string entered_by_full_name=16;
+}
+message protoProduct { 
+        int64 product_id = 1 ;
+        string product_name = 2 ;
+        string product_ref_no = 3 ;
+        int32 status_id = 4 ;
+        string status_value = 5 ;
+        string entered_by = 6 ;
+        string entered_date = 7 ;
+        string changed_by = 8 ;
+        string changed_date = 9 ;
+          string changed_by_full_name=10;
+        string entered_by_full_name=11;
+        string status_description=12;
+        string hsn_sac_number=13;
+         CommonTypes.protoMessage Msg = 26;
+}
+message protoProductSearch { 
+        int64 product_id = 1 ;
+        string product_name = 2 ;
+        string product_ref_no = 3 ;
+        int32 status_id = 4 ;
+        string status_value = 5 ;
+        string entered_by = 6 ;
+        string entered_date = 7 ;
+        string changed_by = 8 ;
+        string changed_date = 9 ;
+          string changed_by_full_name=10;
+        string entered_by_full_name=11;
+        string status_description=12;
+        string hsn_sac_number=13;
+}
+message protoProductSearchResultSet { 
+         int64 product_id = 1 ;
+        string product_name = 2 ;
+        string product_ref_no = 3 ;
+        int32 status_id = 4 ;
+        string status_value = 5 ;
+        string entered_by = 6 ;
+        string entered_date = 7 ;
+        string changed_by = 8 ;
+        string changed_date = 9 ;
+          string changed_by_full_name=10;
+        string entered_by_full_name=11;
+        string status_description=12;
+        string hsn_sac_number=13;
+}
+message protoProductSearchResult { 
+    repeated protoProductSearchResultSet plstprotoProductSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoOrderDeliverySlipDetailWithoutInvoice { 
+        int64 order_delivery_slip_without_id = 1 ;
+        int64 order_detail_id = 2 ;
+        string delivery_slip_number = 3 ;
+        string received_date = 4 ;
+        int64 vendor_id = 5 ;
+        string entered_by = 6 ;
+        string entered_date = 7 ;
+        string changed_by = 8 ;
+        string changed_date = 9 ;
+          string changed_by_full_name=10;
+        string entered_by_full_name=11;
+        string Vendor_details=12;
+        string content=13;
+        string total_amount=14;
+        int64 consignee_id=15;
+        string consignee_details=16;
+}
+message protoRepackingDetailSearch { 
+    int64 repacking_detail_id=1;
+int64 order_id=2;
+int32 status_id=3;
+string status_value=4;
+string total_quantity=5;
+string entered_by=6;
+string changed_by=7;
+string changed_date=8;
+string entered_date=9;
+  CommonTypes.protoMessage Msg = 10;
+  string status_description=11;
+  string changed_by_full_name=12;
+  string entered_by_full_name=13;
+}
+message protoRepackingDetailResultSet { 
+       int64 repacking_detail_id=1;
+int64 order_id=2;
+int32 status_id=3;
+string status_value=4;
+string total_quantity=5;
+string entered_by=6;
+string changed_by=7;
+string changed_date=8;
+string entered_date=9;
+  CommonTypes.protoMessage Msg = 10;
+  string status_description=11;
+  string changed_by_full_name=12;
+  string entered_by_full_name=13;
+  int32 region_id=14;
+  string region_value=15;
+ string  region_description=16;
+ int64 customer_id=17;
+ string order_ref_no=18;
+string  customer_name=19;
+ string customer_details=20;
+}
+message protoRepackingDetailResult { 
+    repeated protoRepackingDetailResultSet plstprotoRepackingDetailResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoRepackingDetail{
+    int64 repacking_detail_id=1;
+int64 order_id=2;
+int32 status_id=3;
+string status_value=4;
+string total_quantity=5;
+string entered_by=6;
+string changed_by=7;
+string changed_date=8;
+string entered_date=9;
+  CommonTypes.protoMessage Msg = 10;
+  string status_description=11;
+  string changed_by_full_name=12;
+  string entered_by_full_name=13;
+  repeated protoRepackingListDetail lstprotoRepackingListDetail=14;
+  protoRepackingListDetail iprotoRepackingListDetail=15;
+  protoOrderDetails iprotoOrderDetails=16;
+  repeated protoOrderDetails lstprotoOrderDetails=17;
+  int32 customer_id=18;
+  int32 region_id=19;
+  string region_value=20;
+  string region_description=21;
+  protoCustomer iprotoCustomer=22;
+}
+
+message protoRepackingListDetail{
+int64 repacking_list_detail_id=1;
+int64 repacking_detail_id=2;
+string package_no=3;
+int64 product_id=4;
+int32 package_type_id=5;
+string package_type_value=6;
+string quantity=7;
+int32 unit_type_id=8;
+string unit_type_value=9;
+string net_weight=10;
+string gross_weight=11;
+int32 status_id=12;
+string status_value=13;
+CommonTypes.protoMessage Msg = 14;
+string package_type_description=15;
+string unit_type_description=16;
+  string changed_by_full_name=17;
+  string entered_by_full_name=18;
+  string status_description=19;
+  string is_verifird=20;
+  string entered_by=21;
+string changed_by=22;
+string changed_date=23;
+string entered_date=24;
+protoProduct iprotoProduct=25;
+}
+message protoRepackingListDetailList{
+    repeated protoRepackingListDetail lstprotoRepackingListDetail=1;
+    CommonTypes.protoMessage Msg = 14;
+}
+message protoFinalPackingDetailsSearch { 
+  int64 final_packing_detail_id=1;
+int64 repacking_detail_id=2;
+int64 order_id=3;
+string package_no=4;
+int64 product_id=5;
+int32 package_type_id=6;
+string package_type_value=7;
+string quantity=8;
+int32 unit_type_id=9;
+string unit_type_value=10;
+string net_weight=11;
+string gross_weight=12;
+int32 status_id=13;
+string status_value=14;
+string unit_type_description=16;
+  string changed_by_full_name=17;
+  string entered_by_full_name=18;
+  string status_description=19;
+  string package_type_description=20;
+    int32 customer_id=21;
+  int32 region_id=22;
+  string region_value=23;
+  string region_description=24;
+
+}
+message protoFinalPackingDetailsSearchResultSet { 
+int64 final_packing_detail_id=1;
+int64 repacking_detail_id=2;
+int64 order_id=3;
+string package_no=4;
+int64 product_id=5;
+int32 package_type_id=6;
+string package_type_value=7;
+string quantity=8;
+int32 unit_type_id=9;
+string unit_type_value=10;
+string net_weight=11;
+string gross_weight=12;
+int32 status_id=13;
+string status_value=14;
+string unit_type_description=16;
+  string changed_by_full_name=17;
+  string entered_by_full_name=18;
+  string status_description=19;
+  string package_type_description=20;
+    int32 customer_id=21;
+  int32 region_id=22;
+  string region_value=23;
+  string region_description=24;
+  string vendor_details=25;
+  string customer_details=26;
+  string product_name=27;
+  string customer_name=28;
+  string order_ref_no=29;
+ string  order_date=30;
+ string repacked_date=32;
+
+}
+message protoFinalPackingDetailsSearchResult { 
+    repeated protoFinalPackingDetailsSearchResultSet plstprotoFinalPackingDetailSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoFinalPackingDetail	{
+int64 final_packing_detail_id=1;
+int64 repacking_detail_id=2;
+int64 order_id=3;
+string package_no=4;
+int64 product_id=5;
+int32 package_type_id=6;
+string package_type_value=7;
+string quantity=8;
+int32 unit_type_id=9;
+string unit_type_value=10;
+string net_weight=11;
+string gross_weight=12;
+int32 status_id=13;
+string status_value=14;
+CommonTypes.protoMessage Msg = 15;
+string unit_type_description=16;
+  string changed_by_full_name=17;
+  string entered_by_full_name=18;
+  string status_description=19;
+  string package_type_description=20;
+    int32 customer_id=21;
+  int32 region_id=22;
+  string region_value=23;
+  string region_description=24;
+  protoCustomer iprotoCustomer=25;
+}
+
+message protoExportInvoice{
+    int64 export_invoice_id=1;
+int64 order_id=2;
+string invoice_no=3;
+string invoice_date=4;
+string vessel_flight_no=5;
+string loading_port_value=6;
+string discharge_port_value=7;
+string destination=8;
+string pre_carriage_by=9;
+string place_of_receipt_of_pre_carrier=10;
+string container_no=11;
+string country_of_origin_of_goods=12;
+string country_of_final_destination=13;
+string buyers_order_no_date=14;
+string terms_of_delivery_payment=15;
+int64 exporter_id=16;
+int64 party_id=17;
+string net_weight=18;
+string gross_weight=19;
+string cgst_tax_percentage=20;
+string sgst_tax_percentage=21;
+string total_tax_amount=22;
+string round_off=23;
+string invoice_total=24;
+string signature_copy=25;
+int64 company_bank_id=26;
+CommonTypes.protoMessage Msg = 27;
+  string changed_by_full_name=28;
+  string entered_by_full_name=29;
+  int64 export_consignee_id=30;
+  int64 over_all_total=31;
+  string taxable_value=32;
+  int64 no_and_kind_of_pakage=33;
+  int32 loading_port_id=34;
+  int32 discharge_port_id=35;
+  string loading_port_description=36;
+string discharge_port_description=37;
+repeated protoExportInvoiceDetail lstprotoExportInvoiceDetail=38;
+protoExporter iprotoExporter=39;
+protoParty iprotoParty=40;
+protoExportConsignee iprotoExportConsignee=41;
+ string entered_by = 42 ;
+string entered_date = 43 ;
+ string changed_by = 44 ;
+ string changed_date = 45 ;
+int32   region_id=46;
+ string   region_value=47;
+ int32  status_id=48;
+ string  status_value=49;
+ string  region_description=50;
+ string  status_description=51;
+  string  cgst_value=52;
+ string  sgst_value=53;
+
+
+}
+message protoExportInvoiceSearch { 
+   int64 export_invoice_id=1;
+int64 order_id=2;
+string invoice_no=3;
+string invoice_date=4;
+string vessel_flight_no=5;
+string loading_port_value=6;
+string discharge_port_value=7;
+string destination=8;
+string pre_carriage_by=9;
+string place_of_receipt_of_pre_carrier=10;
+string container_no=11;
+string country_of_origin_of_goods=12;
+string country_of_final_destination=13;
+string buyers_order_no_date=14;
+string terms_of_delivery_payment=15;
+int64 exporter_id=16;
+int64 party_id=17;
+string net_weight=18;
+string gross_weight=19;
+string cgst_tax_percentage=20;
+string sgst_tax_percentage=21;
+string total_tax_amount=22;
+string round_off=23;
+string invoice_total=24;
+string signature_copy=25;
+int64 company_bank_id=26;
+  string changed_by_full_name=28;
+  string entered_by_full_name=29;
+  int64 export_consignee_id=30;
+  int64 over_all_total=31;
+  string taxable_value=32;
+  int64 no_and_kind_of_pakage=33;
+  int32 loading_port_id=34;
+  int32 discharge_port_id=35;
+  string loading_port_description=36;
+string discharge_port_description=37;
+ string entered_by = 42 ;
+ string entered_date = 43 ;
+string changed_by = 44 ;
+ string changed_date = 45 ;
+
+}
+message protoExportInvoiceSearchResultSet { 
+int64 export_invoice_id=1;
+int64 order_id=2;
+string invoice_no=3;
+string invoice_date=4;
+string vessel_flight_no=5;
+string loading_port_value=6;
+string discharge_port_value=7;
+string destination=8;
+string pre_carriage_by=9;
+string place_of_receipt_of_pre_carrier=10;
+string container_no=11;
+string country_of_origin_of_goods=12;
+string country_of_final_destination=13;
+string buyers_order_no_date=14;
+string terms_of_delivery_payment=15;
+int64 exporter_id=16;
+int64 party_id=17;
+string net_weight=18;
+string gross_weight=19;
+string cgst_tax_percentage=20;
+string sgst_tax_percentage=21;
+string total_tax_amount=22;
+string round_off=23;
+string invoice_total=24;
+string signature_copy=25;
+int64 company_bank_id=26;
+  string changed_by_full_name=28;
+  string entered_by_full_name=29;
+  int64 export_consignee_id=30;
+  int64 over_all_total=31;
+  string taxable_value=32;
+  int64 no_and_kind_of_pakage=33;
+  int32 loading_port_id=34;
+  int32 discharge_port_id=35;
+  string loading_port_description=36;
+string discharge_port_description=37;
+ string entered_by = 42 ;
+string entered_date = 43 ;
+ string changed_by = 44 ;
+ string changed_date = 45 ;
+int32   region_id=46;
+ string   region_value=47;
+ int32  status_id=48;
+ string  status_value=49;
+ string  region_description=50;
+ string  status_description=51;
+  string  cgst_value=52;
+ string  sgst_value=53;
+  string  export_consignee_name=54;
+  string  party_name=55;
+ string  exporter_name=56;
+
+}
+message protoExportInvoiceSearchResult { 
+    repeated protoExportInvoiceSearchResultSet plstprotoExportInvoiceSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+
+message protoExportInvoiceDetail{
+    int64 export_invoice_detail_id=1;
+int64 export_invoice_id=2;
+int64 final_packing_detail_id=3;
+string package_no=4;
+string quantity=5;
+int32 unit_type_id=6;
+string unit_type_value=7;
+string rate=8;
+string invoice_rate=9;
+string amount=10;
+CommonTypes.protoMessage Msg = 11;
+  string changed_by_full_name=12;
+  string entered_by_full_name=13;
+  string unit_type_description=14;
+  int64 product_id=15;
+   string entered_by = 19 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+        string gross_weight=21;
+        string net_weight=22;
+}
+message protoExportInvoiceDetailList
+{
+    repeated protoExportInvoiceDetail lstprotoExportInvoiceDetail=1;
+}
+message protoConsignee { 
+        int64 consignee_id = 1 ;
+        string consignee_name = 2 ;
+        string consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoConsigneeSearch { 
+        int64 consignee_id = 1 ;
+        string consignee_name = 2 ;
+        string consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoConsigneeSearchResultSet { 
+        int64 consignee_id = 1 ;
+        string consignee_name = 2 ;
+        string consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoConsigneeSearchResult { 
+    repeated protoConsigneeSearchResultSet plstprotoConsigneeSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+message protoBuyer { 
+        int64 buyer_id = 1 ;
+        string buyer_name = 2 ;
+        string buyer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoBuyerSearch { 
+        int64 buyer_id = 1 ;
+        string buyer_name = 2 ;
+        string buyer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoBuyerSearchResultSet { 
+        int64 buyer_id = 1 ;
+        string buyer_name = 2 ;
+        string buyer_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoBuyerSearchResult { 
+    repeated protoBuyerSearchResultSet plstprotoBuyerSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoPreorderSearch { 
+         int64 preorder_id =1;
+       int64 order_id =2;
+         string preorder_ref_no =3;
+         string order_expected_date =4;
+        int64 customer_id =5;
+         string vendor_cognisee_type =6;
+         string notes =8;
+        int32 status_id =9;
+         string status_value =10;
+         string entered_by =11;
+         string entered_date =12;
+         string changed_by =13;
+         string status_description =14;
+         string changed_date =15;
+          CommonTypes.protoMessage Msg = 16;
+          int32 region_id=17;
+          string region_value=18;
+          string region_description=19;
+}
+message protoPreorderSearchResultSet { 
+        int64 preorder_id =1;
+       int64 order_id =2;
+         string preorder_ref_no =3;
+         string order_expected_date =4;
+        int64 customer_id =5;
+         string vendor_cognisee_type =6;
+         string notes =8;
+        int32 status_id =9;
+         string status_value =10;
+         string entered_by =11;
+         string entered_date =12;
+         string changed_by =13;
+         string status_description =14;
+         string changed_date =15;
+          CommonTypes.protoMessage Msg = 16;
+          int32 region_id=17;
+          string region_value=18;
+          string region_description=19;
+          string changed_by_full_name=20;
+        string entered_by_full_name=21;
+         string customer_name=23;
+         string customer_details=24;
+         string order_ref_no=25;
+}
+message protoPreorderSearchResult { 
+    repeated protoPreorderSearchResultSet plstprotoPreorderSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+message protoPreorder
+{
+       int64 preorder_id =1;
+       int64 order_id =2;
+         string preorder_ref_no =3;
+         string order_expected_date =4;
+        int64 customer_id =5;
+         string vendor_cognisee_type =6;
+         string notes =8;
+        int32 status_id =9;
+         string status_value =10;
+         string entered_by =11;
+         string entered_date =12;
+         string changed_by =13;
+         string status_description =14;
+         string changed_date =15;
+          CommonTypes.protoMessage Msg = 16;
+          int32 region_id=17;
+          string region_value=18;
+          string region_description=19;
+          protoCustomer iprotoCustomer=20;
+}
+message protoPreorderList
+{
+     repeated protoPreorder latprotoPreorder =1;
+}
+message protoParty { 
+        int64 party_id = 1 ;
+        string party_name = 2 ;
+        string party_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoPartySearch { 
+        int64 party_id = 1 ;
+        string party_name = 2 ;
+        string party_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoPartySearchResultSet { 
+       int64 party_id = 1 ;
+        string party_name = 2 ;
+        string party_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoPartySearchResult { 
+    repeated protoPartySearchResultSet plstprotoPartySearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoExporter { 
+        int64 exporter_id = 1 ;
+        string exporter_name = 2 ;
+        string exporter_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoExporterSearch { 
+           int64 exporter_id = 1 ;
+        string exporter_name = 2 ;
+        string exporter_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoExporterSearchResultSet { 
+           int64 exporter_id = 1 ;
+        string exporter_name = 2 ;
+        string exporter_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoExporterSearchResult { 
+    repeated protoExporterSearchResultSet plstprotoExporterSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoExportConsignee { 
+        int64 export_consignee_id = 1 ;
+        string export_consignee_name = 2 ;
+        string export_consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+        
+}
+message protoExportConsigneeSearch { 
+        int64 export_consignee_id = 1 ;
+        string export_consignee_name = 2 ;
+        string export_consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+          CommonTypes.protoMessage Msg = 26;
+}
+message protoExportConsigneeSearchResultSet { 
+        int64 export_consignee_id = 1 ;
+        string export_consignee_name = 2 ;
+        string export_consignee_ref_no = 3 ;
+        string email_id = 4 ;
+        string contact_no = 5 ;
+        string address_line_1 = 6 ;
+        string address_line_2 = 7 ;
+        string address_line_3 = 8 ;
+        string city = 9 ;
+        string state = 10 ;
+        string country = 11 ;
+        string pincode = 12 ;
+        int32 status_id = 13 ;
+        string status_value = 14 ;
+        string entered_by = 15 ;
+        string entered_date = 16 ;
+        string changed_by = 17 ;
+        string changed_date = 18 ;
+          string changed_by_full_name=19;
+        string entered_by_full_name=20;
+         string status_description=21;
+         string gstn_uin_number=22;
+}
+message protoExportConsigneeSearchResult { 
+    repeated protoExportConsigneeSearchResultSet plstprotoExportConsigneeSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}

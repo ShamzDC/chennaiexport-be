@@ -1,0 +1,222 @@
+syntax = "proto3";
+option csharp_namespace = "CHEExportsProto";
+import "google/protobuf/Empty.proto";
+import "CommonTypes.proto";
+import "Application.proto";
+
+package ApplicationService;
+
+service ApplicationService{
+
+rpc AutoSearchForCommon(CommonTypes.protoStringData2) returns (CommonTypes.protoCommonDDlList);
+
+rpc CreateNewCompany(google.protobuf.Empty) returns (Application.protoCompany);
+rpc SaveCompany(Application.protoCompany) returns (Application.protoCompany);
+rpc UpdateCompany(Application.protoCompany) returns (Application.protoCompany);
+rpc OpenCompany(CommonTypes.protoLongData) returns (Application.protoCompany);
+rpc DeleteCompany(CommonTypes.protoLongData) returns (Application.protoCompany);
+
+
+rpc GetInitialDataCustomerAndVendor(google.protobuf.Empty) returns (CommonTypes.entDDLData);
+rpc CreateNewCustomerSearch(google.protobuf.Empty) returns (CommonTypes.protoSearchParams);
+rpc SearchCustomer(CommonTypes.protoSearchParams) returns (Application.protoCustomerSearchResult);
+rpc CreateNewCustomer(google.protobuf.Empty) returns (Application.protoCustomer);
+rpc SaveCustomer(Application.protoCustomer) returns (Application.protoCustomer);
+rpc UpdateCustomer(Application.protoCustomer) returns (Application.protoCustomer);
+rpc OpenCustomer(CommonTypes.protoLongData) returns (Application.protoCustomer);
+rpc DeleteCustomer(CommonTypes.protoLongData) returns (Application.protoCustomer);
+rpc SaveCustomerForOrderSrn (Application.protoCustomer) returns (CommonTypes.entDDLClass);
+
+rpc CreateNewCompanyBankDetail(google.protobuf.Empty) returns (Application.protoCompanyBankDetail);
+rpc SaveCompanyBankDetail(Application.protoCompanyBankDetail) returns (Application.protoCompanyBankDetail);
+rpc UpdateCompanyBankDetail(Application.protoCompanyBankDetail) returns (Application.protoCompanyBankDetail);
+rpc OpenCompanyBankDetail(CommonTypes.protoLongData) returns (Application.protoCompanyBankDetail);
+rpc DeleteCompanyBankDetail(CommonTypes.protoLongData) returns (Application.protoCompanyBankDetail);
+
+
+rpc CreateNewVendorSearch(google.protobuf.Empty) returns (CommonTypes.protoSearchParams);
+rpc SearchVendor(CommonTypes.protoSearchParams) returns (Application.protoVendorSearchResult);
+rpc CreateNewVendor(google.protobuf.Empty) returns (Application.protoVendor);
+rpc SaveVendor(Application.protoVendor) returns (Application.protoVendor);
+rpc UpdateVendor(Application.protoVendor) returns (Application.protoVendor);
+rpc OpenVendor(CommonTypes.protoLongData) returns (Application.protoVendor);
+rpc DeleteVendor(CommonTypes.protoLongData) returns (Application.protoVendor);
+
+
+rpc SearchWareHouse(CommonTypes.protoSearchParams) returns (Application.protoWareHouseSearchResult);
+rpc CreateNewWareHouse(google.protobuf.Empty) returns (Application.protoWareHouse);
+rpc SaveWareHouse(Application.protoWareHouse) returns (Application.protoWareHouse);
+rpc UpdateWareHouse(Application.protoWareHouse) returns (Application.protoWareHouse);
+rpc OpenWareHouse(CommonTypes.protoLongData) returns (Application.protoWareHouse);
+rpc DeleteWareHouse(CommonTypes.protoLongData) returns (Application.protoWareHouse);
+
+
+rpc CreateNewOrderDetailsSearch(google.protobuf.Empty) returns (CommonTypes.protoSearchParams);
+rpc SearchOrderDetails(CommonTypes.protoSearchParams) returns (Application.protoOrderDetailsResult);
+rpc GetInitialDataForOrder(google.protobuf.Empty) returns (CommonTypes.entDDLData);
+rpc CreateNewOrderDetails(CommonTypes.protoStringData) returns (Application.protoOrderDetails);
+rpc SaveOrderDetails(Application.protoOrderDetails) returns (Application.protoOrderDetails);
+rpc UpdateOrderDetails(Application.protoOrderDetails) returns (Application.protoOrderDetails);
+rpc OpenOrderDetails(CommonTypes.protoLongData) returns (Application.protoOrderDetails);
+rpc DeleteOrderDetails(CommonTypes.protoLongData) returns (Application.protoOrderDetails);
+
+
+rpc CreateNewLRDetails(google.protobuf.Empty) returns (Application.protoLRDetails);
+rpc SaveLRDetails(Application.protoLRDetails) returns (Application.protoLRDetails);
+rpc UpdateLRDetails(Application.protoLRDetails) returns (Application.protoLRDetails);
+rpc OpenLRDetails(CommonTypes.protoLongData) returns (Application.protoLRDetails);
+rpc DeleteLRDetails(CommonTypes.protoLongData) returns (Application.protoLRDetails);
+
+
+
+rpc CreateNewInvoiceDetails(google.protobuf.Empty) returns (Application.protoInvoiceDetails);
+rpc SaveInvoiceDetails(Application.protoInvoiceDetails) returns (Application.protoInvoiceDetails);
+rpc UpdateInvoiceDetails(Application.protoInvoiceDetails) returns (Application.protoInvoiceDetails);
+rpc OpenInvoiceDetails(CommonTypes.protoLongData) returns (Application.protoInvoiceDetails);
+rpc DeleteInvoiceDetails(CommonTypes.protoLongData) returns (Application.protoInvoiceDetails);
+
+
+
+rpc CreateNewInvoiceDetailsItems(google.protobuf.Empty) returns (Application.protoInvoiceDetailsItems);
+rpc SaveInvoiceDetailsItems(Application.protoInvoiceDetailsItems) returns (Application.protoInvoiceDetailsItems);
+rpc UpdateInvoiceDetailsItems(Application.protoInvoiceDetailsItems) returns (Application.protoInvoiceDetailsItems);
+rpc OpenInvoiceDetailsItems(CommonTypes.protoLongData) returns (Application.protoInvoiceDetailsItems);
+rpc DeleteInvoiceDetailsItems(Application.protoInvoiceDetailsItems) returns (Application.protoInvoiceDetailsItemsList);
+
+
+
+rpc CreateNewOrderDeliverySlipDetail(google.protobuf.Empty) returns (Application.protoOrderDeliverySlipDetail);
+rpc SaveOrderDeliverySlipDetail(Application.protoOrderDeliverySlipDetail) returns (Application.protoOrderDeliverySlipDetail);
+rpc UpdateOrderDeliverySlipDetail(Application.protoOrderDeliverySlipDetail) returns (Application.protoOrderDeliverySlipDetail);
+rpc OpenOrderDeliverySlipDetail(CommonTypes.protoLongData) returns (Application.protoOrderDeliverySlipDetail);
+rpc DeleteOrderDeliverySlipDetail(Application.protoOrderDeliverySlipDetail) returns (Application.protoOrderDeliverySlipDetailList);
+
+rpc CreateNewOrderDeliverySlipDetailsItems(google.protobuf.Empty) returns (Application.protoOrderDeliverySlipDetailsItems);
+rpc SaveOrderDeliverySlipDetailsItems(Application.protoOrderDeliverySlipDetailsItems) returns (Application.protoOrderDeliverySlipDetailsItems);
+rpc UpdateOrderDeliverySlipDetailsItems(Application.protoOrderDeliverySlipDetailsItems) returns (Application.protoOrderDeliverySlipDetailsItems);
+rpc OpenOrderDeliverySlipDetailsItems(CommonTypes.protoLongData) returns (Application.protoOrderDeliverySlipDetailsItems);
+rpc DeleteOrderDeliverySlipDetailsItems(CommonTypes.protoLongData) returns (Application.protoOrderDeliverySlipDetailsItems);
+
+rpc SaveInvoiceDetailsAndSlipDetails(Application.protoOrderDetails) returns (Application.protoOrderDetails);
+
+
+
+rpc SearchProduct(CommonTypes.protoSearchParams) returns (Application.protoProductSearchResult);
+rpc CreateNewProduct(google.protobuf.Empty) returns (Application.protoProduct);
+rpc SaveProduct(Application.protoProduct) returns (Application.protoProduct);
+rpc UpdateProduct(Application.protoProduct) returns (Application.protoProduct);
+rpc OpenProduct(CommonTypes.protoLongData) returns (Application.protoProduct);
+rpc DeleteProduct(CommonTypes.protoLongData) returns (Application.protoProduct);
+
+rpc CreateNewOrderDeliverySlipDetailWithoutInvoice(google.protobuf.Empty) returns (Application.protoOrderDeliverySlipDetailWithoutInvoice);
+rpc SaveOrderDeliverySlipDetailWithoutInvoice(Application.protoOrderDeliverySlipDetailWithoutInvoice) returns (Application.protoOrderDeliverySlipDetailWithoutInvoice);
+rpc UpdateOrderDeliverySlipDetailWithoutInvoice(Application.protoOrderDeliverySlipDetailWithoutInvoice) returns (Application.protoOrderDeliverySlipDetailWithoutInvoice);
+rpc OpenOrderDeliverySlipDetailWithoutInvoice(CommonTypes.protoLongData) returns (Application.protoOrderDeliverySlipDetailWithoutInvoice);
+rpc DeleteOrderDeliverySlipDetailWithoutInvoice(CommonTypes.protoLongData) returns (Application.protoOrderDeliverySlipDetailWithoutInvoice);
+
+
+rpc GetInitialDataForRepaking(google.protobuf.Empty) returns (CommonTypes.entDDLData);
+rpc CreateNewRepackingDetailSearch(google.protobuf.Empty) returns (CommonTypes.protoSearchParams);
+rpc SearchRepackingDetail(CommonTypes.protoSearchParams) returns (Application.protoRepackingDetailResult);
+rpc CreateNewRepackingDetail(google.protobuf.Empty) returns (Application.protoRepackingDetail);
+rpc SaveRepackingDetail(Application.protoRepackingDetail) returns (Application.protoRepackingDetail);
+rpc UpdateRepackingDetail(Application.protoRepackingDetail) returns (Application.protoRepackingDetail);
+rpc OpenRepackingDetail(CommonTypes.protoLongData) returns (Application.protoRepackingDetail);
+rpc DeleteRepackingDetail(CommonTypes.protoLongData) returns (Application.protoRepackingDetail);
+rpc GetOrderDetailsForRepaking(CommonTypes.protoLongData) returns (Application.protoRepackingDetail);
+rpc GetOrderDetailsBasedOnValues(CommonTypes.entPassingParam) returns (Application.protoRepackingDetail);
+rpc UpdateApprovedRepackingDetail(Application.protoRepackingDetail) returns (Application.protoRepackingDetail);
+
+rpc CreateNewRepackingListDetail(CommonTypes.protoLongData) returns (Application.protoRepackingListDetail);
+rpc SaveRepackingListDetail(Application.protoRepackingListDetail) returns (Application.protoRepackingListDetail);
+rpc UpdateRepackingListDetail(Application.protoRepackingListDetail) returns (Application.protoRepackingListDetail);
+rpc OpenRepackingListDetail(CommonTypes.protoLongData) returns (Application.protoRepackingListDetail);
+rpc CheckOrderStatusInRepacking(CommonTypes.protoLongData) returns (Application.protoRepackingDetail);
+rpc DeleteRepackingListDetail(Application.protoRepackingListDetail) returns (Application.protoRepackingListDetailList);
+
+
+rpc SearchFinalPackingDetails(CommonTypes.protoSearchParams) returns (Application.protoFinalPackingDetailsSearchResult);
+rpc CreateNewFinalPackingDetail(google.protobuf.Empty) returns (Application.protoFinalPackingDetail);
+rpc SaveFinalPackingDetail(Application.protoFinalPackingDetail) returns (Application.protoFinalPackingDetail);
+rpc UpdateFinalPackingDetail(Application.protoFinalPackingDetail) returns (Application.protoFinalPackingDetail);
+rpc OpenFinalPackingDetail(CommonTypes.protoLongData) returns (Application.protoFinalPackingDetail);
+rpc DeleteFinalPackingDetail(CommonTypes.protoLongData) returns (Application.protoFinalPackingDetail);
+
+
+rpc SearchExportInvoice(CommonTypes.protoSearchParams) returns (Application.protoExportInvoiceSearchResult);
+rpc CreateNewExportInvoice(google.protobuf.Empty) returns (Application.protoExportInvoice);
+rpc SaveExportInvoice(Application.protoExportInvoice) returns (Application.protoExportInvoice);
+rpc UpdateExportInvoice(Application.protoExportInvoice) returns (Application.protoExportInvoice);
+rpc OpenExportInvoice(CommonTypes.protoLongData) returns (Application.protoExportInvoice);
+rpc DeleteExportInvoice(CommonTypes.protoLongData) returns (Application.protoExportInvoice);
+
+rpc CreateNewExportInvoiceDetail(google.protobuf.Empty) returns (Application.protoExportInvoiceDetail);
+rpc SaveExportInvoiceDetail(Application.protoExportInvoiceDetail) returns (Application.protoExportInvoiceDetail);
+rpc UpdateExportInvoiceDetail(Application.protoExportInvoiceDetail) returns (Application.protoExportInvoiceDetail);
+rpc OpenExportInvoiceDetail(CommonTypes.protoLongData) returns (Application.protoExportInvoiceDetail);
+rpc DeleteExportInvoiceDetail(Application.protoExportInvoiceDetail) returns (Application.protoExportInvoiceDetailList);
+
+rpc GetInStockInvoiceDetailBasedPakgNO(CommonTypes.protoStringData) returns (Application.protoExportInvoiceDetailList);
+
+
+
+
+rpc SearchConsignee(CommonTypes.protoSearchParams) returns (Application.protoConsigneeSearchResult);
+rpc CreateNewConsignee(google.protobuf.Empty) returns (Application.protoConsignee);
+rpc SaveConsignee(Application.protoConsignee) returns (Application.protoConsignee);
+rpc UpdateConsignee(Application.protoConsignee) returns (Application.protoConsignee);
+rpc OpenConsignee(CommonTypes.protoLongData) returns (Application.protoConsignee);
+rpc DeleteConsignee(CommonTypes.protoLongData) returns (Application.protoConsignee);
+
+
+
+rpc SearchBuyer(CommonTypes.protoSearchParams) returns (Application.protoBuyerSearchResult);
+rpc CreateNewBuyer(google.protobuf.Empty) returns (Application.protoBuyer);
+rpc SaveBuyer(Application.protoBuyer) returns (Application.protoBuyer);
+rpc UpdateBuyer(Application.protoBuyer) returns (Application.protoBuyer);
+rpc OpenBuyer(CommonTypes.protoLongData) returns (Application.protoBuyer);
+rpc DeleteBuyer(CommonTypes.protoLongData) returns (Application.protoBuyer);
+
+rpc SearchPreorder(CommonTypes.protoSearchParams) returns (Application.protoPreorderSearchResult);
+rpc CreateNewPreorder(google.protobuf.Empty) returns (Application.protoPreorder);
+rpc SavePreorder(Application.protoPreorder) returns (Application.protoPreorder);
+rpc UpdatePreorder(Application.protoPreorder) returns (Application.protoPreorder);
+rpc OpenPreorder(CommonTypes.protoLongData) returns (Application.protoPreorder);
+rpc DeletePreorder(CommonTypes.protoLongData) returns (Application.protoPreorder);
+
+rpc GetTodayPreorders(CommonTypes.protoStringData) returns (Application.protoPreorderList);
+
+
+rpc SearchParty(CommonTypes.protoSearchParams) returns (Application.protoPartySearchResult);
+rpc CreateNewParty(google.protobuf.Empty) returns (Application.protoParty);
+rpc SaveParty(Application.protoParty) returns (Application.protoParty);
+rpc UpdateParty(Application.protoParty) returns (Application.protoParty);
+rpc OpenParty(CommonTypes.protoLongData) returns (Application.protoParty);
+rpc DeleteParty(CommonTypes.protoLongData) returns (Application.protoParty);
+
+
+rpc SearchExporter(CommonTypes.protoSearchParams) returns (Application.protoExporterSearchResult);
+rpc CreateNewExporter(google.protobuf.Empty) returns (Application.protoExporter);
+rpc SaveExporter(Application.protoExporter) returns (Application.protoExporter);
+rpc UpdateExporter(Application.protoExporter) returns (Application.protoExporter);
+rpc OpenExporter(CommonTypes.protoLongData) returns (Application.protoExporter);
+rpc DeleteExporter(CommonTypes.protoLongData) returns (Application.protoExporter);
+
+
+rpc SearchExportConsignee(CommonTypes.protoSearchParams) returns (Application.protoExportConsigneeSearchResult);
+rpc CreateNewExportConsignee(google.protobuf.Empty) returns (Application.protoExportConsignee);
+rpc SaveExportConsignee(Application.protoExportConsignee) returns (Application.protoExportConsignee);
+rpc UpdateExportConsignee(Application.protoExportConsignee) returns (Application.protoExportConsignee);
+rpc OpenExportConsignee(CommonTypes.protoLongData) returns (Application.protoExportConsignee);
+rpc DeleteExportConsignee(CommonTypes.protoLongData) returns (Application.protoExportConsignee);
+
+
+
+rpc GenerateExportInvoiceExcel(CommonTypes.protoStringData2) returns (CommonTypes.entByteData);
+rpc GenerateExportInvoiceWithoutPakageNoExcel(CommonTypes.protoStringData2) returns (CommonTypes.entByteData);
+
+rpc GetOrdersDetailsMonthWise(CommonTypes.entPassingParam) returns (CommonTypes.protoOrdersMonthWiseList);
+rpc GetOrdersDetailsForDashBoard(CommonTypes.protoLongData) returns (CommonTypes.protoStringData);
+
+}
+  

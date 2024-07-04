@@ -1,0 +1,122 @@
+syntax = "proto3";
+option csharp_namespace = "CHEExportsProto";
+package CommonTypes;
+
+message protoStringData
+{
+	string data = 1;
+}
+
+message protoMessage
+{
+	bool has_error = 1;
+	repeated protoMsgDetail error_message = 2;
+	protoMsgDetail info_message = 3;
+	repeated protoMsgDetail infoMsgList = 4;
+}
+
+message protoMsgDetail
+{
+	string msg_type = 1;
+	string msg_description = 2;
+}
+message protoLongData
+{
+	int64 data = 1;
+}
+message entDDLClass{
+	int64 id =1;
+	string code=2;
+	string description =3;
+	string name =4;
+	string constant =5;
+	string full_name =6;
+	string FullAddress=7;
+	string ref_no=8;
+	repeated entDDLClass LstDDLClass=12;
+	protoMessage Msg=13;
+}
+
+message entDDL{
+	string Key = 1;
+	repeated entDDLClass Value =2;
+	protoMessage Msg=3;
+}
+
+message entDDLData{
+	repeated entDDL data =1;
+	string Count1=2;
+	string Count2=3;
+	protoMessage Msg=4;
+}
+
+message entPassingParam{
+	string string1=1;
+	string string2=2;
+	string string3=3;
+	int64 long1=4;
+	int64 long2=5;
+	int32 int1=6;
+	int32 int2=7;
+	protoMessage Msg=8;
+}
+message protoCommonDDl{
+	string Name=1;
+	string Email=2;
+	string RefNo=3;
+	int64 id=4;
+	int64 id1=5;
+	string constant=6;
+	string FullDetails=7;
+	string gst_no=8;
+	string Hsn_no=9;
+	string Date=11;
+	string description=12;
+}
+message protoCommonDDlList
+{
+	repeated protoCommonDDl lstprotoCommonDDl=1;
+}
+
+message protoStringData2
+{
+	string data1 = 1;
+	string data2 = 2;
+	int64 long1=3;
+}
+message protoSearchParams
+{
+	string keyword = 1;
+	int32 pageNumber = 2;
+	int32 RowPerPage=3;
+	string Customer_type=4;
+	string region_value=5;
+	string date=6;
+}
+
+message entByteData{
+	bytes byteData=1;
+	string content_type=3;
+	string file_name=4;
+}
+
+message protoOrdersMonthWise
+{
+    string label=1;
+    repeated int32 data=2;
+    bool fill=3;
+    string borderColor=4;
+    string tension=5;
+    string backgroundColor=6;
+    string pointBackgroundColor=7;
+    repeated string percentage=8;
+}
+message protoOrdersMonthWiseList
+{
+    repeated string labels=1;
+    repeated protoOrdersMonthWise datasets=2;
+}
+message protoStringDataList
+{
+	repeated string lstString = 1;
+}

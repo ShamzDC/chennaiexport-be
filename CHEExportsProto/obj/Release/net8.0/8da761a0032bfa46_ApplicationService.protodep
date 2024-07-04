@@ -1,0 +1,5 @@
+obj\Release\net8.0/ApplicationService.cs \
+obj\Release\net8.0/ApplicationServiceGrpc.cs: C:/Users/HP/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/Empty.proto\
+ ../Protos/CommonTypes.proto\
+ ../Protos/Application.proto\
+ ../Protos/ApplicationService.proto

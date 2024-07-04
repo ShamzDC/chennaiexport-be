@@ -1,0 +1,68 @@
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.deps.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExpor.2C734F2C.Up2Date
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\refint\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataAccessLayer\obj\Debug\net8.0\ref\CHEExportsDataAccessLayer.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.deps.json
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.AssemblyReference.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfoInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfo.cs
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.CoreCompileInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExpor.2C734F2C.Up2Date
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\refint\CHEExportsDataAccessLayer.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\ref\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.deps.json
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExpor.2C734F2C.Up2Date
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\refint\CHEExportsDataAccessLayer.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\ref\CHEExportsDataAccessLayer.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.deps.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsDataObjects.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\bin\Debug\net8.0\CHEExportsProto.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.AssemblyReference.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfoInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.AssemblyInfo.cs
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.csproj.CopyComplete
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\refint\CHEExportsDataAccessLayer.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\CHEExportsDataAccessLayer.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataAccessLayer\obj\Debug\net8.0\ref\CHEExportsDataAccessLayer.dll

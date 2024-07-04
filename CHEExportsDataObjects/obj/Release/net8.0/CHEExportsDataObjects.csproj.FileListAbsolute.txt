@@ -1,0 +1,45 @@
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.deps.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExpor.044501C5.Up2Date
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\refint\CHEExportsDataObjects.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsDataObjects\obj\Release\net8.0\ref\CHEExportsDataObjects.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.deps.json
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.AssemblyReference.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfoInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfo.cs
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.CoreCompileInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExpor.044501C5.Up2Date
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\refint\CHEExportsDataObjects.dll
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.pdb
+F:\backend\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\ref\CHEExportsDataObjects.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.deps.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsDataObjects.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\bin\Release\net8.0\CHEExportsProto.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.AssemblyReference.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfoInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.AssemblyInfo.cs
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.CoreCompileInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.csproj.CopyComplete
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\refint\CHEExportsDataObjects.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\CHEExportsDataObjects.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsDataObjects\obj\Release\net8.0\ref\CHEExportsDataObjects.dll

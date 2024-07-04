@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Admin.cs: ../Protos/CommonTypes.proto\
+ ../Protos/Admin.proto

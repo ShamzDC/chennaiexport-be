@@ -1,0 +1,48 @@
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.deps.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\refint\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsProto\obj\Debug\net8.0\ref\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.deps.json
+F:\backend\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.pdb
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.AssemblyReference.cache
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfoInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfo.cs
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.CoreCompileInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\refint\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.pdb
+F:\backend\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\ref\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.deps.json
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\refint\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024)\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\ref\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.deps.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\bin\Debug\net8.0\CHEExportsProto.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.AssemblyReference.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.GeneratedMSBuildEditorConfig.editorconfig
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfoInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.AssemblyInfo.cs
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.csproj.CoreCompileInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\refint\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\CHEExportsProto.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsProto\obj\Debug\net8.0\ref\CHEExportsProto.dll

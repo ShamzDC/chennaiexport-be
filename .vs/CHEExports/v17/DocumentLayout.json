@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalrepackinglistdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalrepackinglistdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0E14C1-DC60-4FE5-BCFD-8407465F6206}|CHEExportsService\\CHEExportsService.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsservice\\services\\applicationserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0E14C1-DC60-4FE5-BCFD-8407465F6206}|CHEExportsService\\CHEExportsService.csproj|solutionrelative:cheexportsservice\\services\\applicationserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71860190-F40A-488F-A9B4-46BBE0CE96A8}|CHEExportsAPI\\CHEExportsAPI.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsapi\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71860190-F40A-488F-A9B4-46BBE0CE96A8}|CHEExportsAPI\\CHEExportsAPI.csproj|solutionrelative:cheexportsapi\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71860190-F40A-488F-A9B4-46BBE0CE96A8}|CHEExportsAPI\\CHEExportsAPI.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71860190-F40A-488F-A9B4-46BBE0CE96A8}|CHEExportsAPI\\CHEExportsAPI.csproj|solutionrelative:cheexportsapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\protos\\applicationservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|solutionrelative:protos\\applicationservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\protos\\application.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|solutionrelative:protos\\application.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalexportinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalexportinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalexportinvoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalexportinvoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\common\\dalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\common\\dalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalpreorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalpreorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalrepackingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalrepackingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\protos\\adminservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8F97C41-BC30-4EBB-A7AC-0E0630155821}|CHEExportsProto\\CHEExportsProto.csproj|solutionrelative:protos\\adminservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\application\\invoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\application\\invoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\application\\repackingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\application\\repackingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\common\\dataobjectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\common\\dataobjectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\common\\commondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\common\\commondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalorderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalorderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\mapper\\application\\orderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\mapper\\application\\orderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\application\\orderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\application\\orderdeliveryslipdetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\mapper\\application\\invoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\mapper\\application\\invoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0E14C1-DC60-4FE5-BCFD-8407465F6206}|CHEExportsService\\CHEExportsService.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsservice\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0E14C1-DC60-4FE5-BCFD-8407465F6206}|CHEExportsService\\CHEExportsService.csproj|solutionrelative:cheexportsservice\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\application\\dalinvoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\application\\dalinvoicedetailsitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\admin\\dalmasterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\admin\\dalmasterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\application\\orderdeliveryslipdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\application\\orderdeliveryslipdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataaccesslayer\\admin\\daluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9D1E275-16E2-42E6-AEA0-65CD15E89004}|CHEExportsDataAccessLayer\\CHEExportsDataAccessLayer.csproj|solutionrelative:cheexportsdataaccesslayer\\admin\\daluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\common\\searchbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\common\\searchbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\common\\searchresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\common\\searchresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|c:\\dreamcreators\\cheexports(20-05-2024)\\cheexports - 29-06\\cheexportsdataobjects\\common\\searchresultset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C6EDD3-774B-4012-8A52-7B395C7D42E0}|CHEExportsDataObjects\\CHEExportsDataObjects.csproj|solutionrelative:cheexportsdataobjects\\common\\searchresultset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Selva\\CHEExports\\CHEExportsDataObjects\\Common\\DALBaseSearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SearchResultBase.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchResultBase.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Common\\SearchResultBase.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchResultBase.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Common\\SearchResultBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:16:26.08Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderDeliverySlipDetails.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\OrderDeliverySlipDetails.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Application\\OrderDeliverySlipDetails.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\OrderDeliverySlipDetails.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Application\\OrderDeliverySlipDetails.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwEEAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:13:23.54Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CHEExportsAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CHEExportsAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAIAwwGsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:35:03.271Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Application.proto",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\Application.proto",
+              "RelativeDocumentMoniker": "Protos\\Application.proto",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\Application.proto",
+              "RelativeToolTip": "Protos\\Application.proto",
+              "ViewState": "AQIAACwBAAAAAAAAAAAAAD8BAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-05-12T11:08:43.924Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationSerivce.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsService\\Services\\ApplicationSerivce.cs",
+              "RelativeDocumentMoniker": "CHEExportsService\\Services\\ApplicationSerivce.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsService\\Services\\ApplicationSerivce.cs",
+              "RelativeToolTip": "CHEExportsService\\Services\\ApplicationSerivce.cs",
+              "ViewState": "AQIAANUGAAAAAAAAAAAAAN4GAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:41:41.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DALRepackingListDetail.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALRepackingListDetail.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALRepackingListDetail.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALRepackingListDetail.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALRepackingListDetail.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAUwEMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T15:47:53.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationService.proto",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\ApplicationService.proto",
+              "RelativeDocumentMoniker": "Protos\\ApplicationService.proto",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\ApplicationService.proto",
+              "RelativeToolTip": "Protos\\ApplicationService.proto",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAIEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-05-12T12:49:00.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsAPI\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "CHEExportsAPI\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsAPI\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "CHEExportsAPI\\Controllers\\ApplicationController.cs",
+              "ViewState": "AQIAAFYIAAAAAAAAAAAswG0IAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:50:38.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DALExportInvoice.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALExportInvoice.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALExportInvoice.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALExportInvoice.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALExportInvoice.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAowMgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T01:08:55.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DALExportInvoiceDetail.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALExportInvoiceDetail.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALExportInvoiceDetail.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALExportInvoiceDetail.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALExportInvoiceDetail.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAIAwwEoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T01:08:55.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DALBase.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Common\\DALBase.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Common\\DALBase.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Common\\DALBase.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Common\\DALBase.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAIAwwHoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:30:07.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DALPreorder.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALPreorder.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALPreorder.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALPreorder.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALPreorder.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAMAAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T01:08:55.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DALRepackingDetail.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALRepackingDetail.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALRepackingDetail.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALRepackingDetail.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALRepackingDetail.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAIAwwHoAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T09:01:29.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminService.proto",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\AdminService.proto",
+              "RelativeDocumentMoniker": "Protos\\AdminService.proto",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\Protos\\AdminService.proto",
+              "RelativeToolTip": "Protos\\AdminService.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-30T15:43:44.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\InvoiceDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Application\\InvoiceDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\InvoiceDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Application\\InvoiceDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:25:27.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DALCustomer.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALCustomer.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALCustomer.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALCustomer.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALCustomer.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAiwJEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:25:19.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepackingDetail.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\RepackingDetail.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Application\\RepackingDetail.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\RepackingDetail.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Application\\RepackingDetail.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:50:47.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DALOrderDetails.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALOrderDetails.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALOrderDetails.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALOrderDetails.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALOrderDetails.cs",
+              "ViewState": "AQIAAKsBAAAAAAAAAAAswMgBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T01:08:54.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataObjectBase.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\DataObjectBase.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Common\\DataObjectBase.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\DataObjectBase.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Common\\DataObjectBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:16:32.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CommonDAL.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Common\\CommonDAL.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Common\\CommonDAL.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Common\\CommonDAL.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Common\\CommonDAL.cs",
+              "ViewState": "AQIAANEAAAAAAAAAAAAtwOMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:19:14.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DALOrderDeliverySlipDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALOrderDeliverySlipDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALOrderDeliverySlipDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALOrderDeliverySlipDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALOrderDeliverySlipDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:08:34.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDeliverySlipDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Mapper\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Mapper\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Mapper\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Mapper\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:03:09.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderDeliverySlipDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Application\\OrderDeliverySlipDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:59:14.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InvoiceDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Mapper\\Application\\InvoiceDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Mapper\\Application\\InvoiceDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Mapper\\Application\\InvoiceDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Mapper\\Application\\InvoiceDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:42:50.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DALInvoiceDetailsItems.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALInvoiceDetailsItems.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Application\\DALInvoiceDetailsItems.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Application\\DALInvoiceDetailsItems.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Application\\DALInvoiceDetailsItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:39:23.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DALMasterConfig.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Admin\\DALMasterConfig.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Admin\\DALMasterConfig.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Admin\\DALMasterConfig.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Admin\\DALMasterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:39:09.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsService\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "CHEExportsService\\Services\\AdminService.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsService\\Services\\AdminService.cs",
+              "RelativeToolTip": "CHEExportsService\\Services\\AdminService.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAwM8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:35:03.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DALBaseSearch.cs",
+              "DocumentMoniker": "D:\\Selva\\CHEExports\\CHEExportsDataObjects\\Common\\DALBaseSearch.cs",
+              "ToolTip": "D:\\Selva\\CHEExports\\CHEExportsDataObjects\\Common\\DALBaseSearch.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAewA8AAADBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T08:12:51.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchResultSet.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchResultSet.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Common\\SearchResultSet.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchResultSet.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Common\\SearchResultSet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:47:21.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DALUser.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Admin\\DALUser.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataAccessLayer\\Admin\\DALUser.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataAccessLayer\\Admin\\DALUser.cs",
+              "RelativeToolTip": "CHEExportsDataAccessLayer\\Admin\\DALUser.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAswHcAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:24:27.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SearchBase.cs",
+              "DocumentMoniker": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchBase.cs",
+              "RelativeDocumentMoniker": "CHEExportsDataObjects\\Common\\SearchBase.cs",
+              "ToolTip": "C:\\DreamCreators\\CHEExports(20-05-2024)\\CHEExports - 29-06\\CHEExportsDataObjects\\Common\\SearchBase.cs",
+              "RelativeToolTip": "CHEExportsDataObjects\\Common\\SearchBase.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T07:12:47.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

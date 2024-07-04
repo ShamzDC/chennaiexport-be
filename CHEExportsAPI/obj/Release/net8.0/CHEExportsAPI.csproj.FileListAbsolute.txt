@@ -1,0 +1,159 @@
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\appsettings.Development.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\appsettings.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.exe
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.deps.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.runtimeconfig.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Google.Protobuf.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Grpc.AspNetCore.Server.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Grpc.Core.Api.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Client.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.ClientFactory.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Common.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.Bson.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.AssemblyReference.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfoInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.CoreCompileInputs.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets.build.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets.development.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.CHEExportsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.build.CHEExportsAPI.props
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.CHEExportsAPI.props
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.CHEExportsAPI.props
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\staticwebassets.pack.json
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\scopedcss\bundle\CHEExportsAPI.styles.css
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExpor.5C316C7E.Up2Date
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\refint\CHEExportsAPI.dll
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.pdb
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.genruntimeconfig.cache
+C:\DreamCreators\CHEExports(20-05-2024\CHEExports\CHEExportsAPI\obj\Release\net8.0\ref\CHEExportsAPI.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\appsettings.Development.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\appsettings.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.exe
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.deps.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.runtimeconfig.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.pdb
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Google.Protobuf.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.AspNetCore.Server.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Core.Api.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Client.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.ClientFactory.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Common.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.OpenApi.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.Bson.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.pdb
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.AssemblyReference.cache
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfoInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfo.cs
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.CoreCompileInputs.cache
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.build.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.development.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.CHEExportsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.build.CHEExportsAPI.props
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.CHEExportsAPI.props
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.CHEExportsAPI.props
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.pack.json
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\scopedcss\bundle\CHEExportsAPI.styles.css
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExpor.5C316C7E.Up2Date
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\refint\CHEExportsAPI.dll
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.pdb
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.genruntimeconfig.cache
+F:\backend\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\ref\CHEExportsAPI.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\appsettings.Development.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\appsettings.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.exe
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.deps.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.runtimeconfig.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsAPI.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Google.Protobuf.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.AspNetCore.Server.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Core.Api.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Client.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.ClientFactory.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Grpc.Net.Common.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Microsoft.OpenApi.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Newtonsoft.Json.Bson.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\bin\Release\net8.0\CHEExportsProto.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.AssemblyReference.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfoInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.AssemblyInfo.cs
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.CoreCompileInputs.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.build.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.development.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.CHEExportsAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.build.CHEExportsAPI.props
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.CHEExportsAPI.props
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.CHEExportsAPI.props
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\staticwebassets.pack.json
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\scopedcss\bundle\CHEExportsAPI.styles.css
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.csproj.CopyComplete
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\refint\CHEExportsAPI.dll
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.pdb
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\CHEExportsAPI.genruntimeconfig.cache
+D:\CHEExports\CHEExports - 29-06\CHEExportsAPI\obj\Release\net8.0\ref\CHEExportsAPI.dll

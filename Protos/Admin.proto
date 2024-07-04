@@ -1,0 +1,291 @@
+syntax = "proto3";
+option csharp_namespace = "CHEExportsProto";
+import "CommonTypes.proto";
+package Admin;
+
+message protoLoginCredentials
+{
+	string user_login_id = 1;
+	string password = 2;
+}
+
+message protoLoggedInDetails
+{
+	string company_name = 1;
+	protoUser pprotoUser = 2;
+	CommonTypes.protoMessage Msg = 3;
+}
+message protoUserSearch { 
+       int64 user_id = 1;
+	string user_ref_no =2;
+	string user_login_id =3;
+	string keyword=4;
+	string first_name=5;
+	string middle_name=6;
+	string last_name=7;
+	string father_name=8;
+	string mother_name=9;
+	string dob=10;
+	string email_id=11;
+	string contact_number=12;
+	string alternate_number=13;
+	int32 gender_id=14;
+	string gender_value=15;
+	string key_token=16;
+	string begin_date=17;
+	string end_date=18;
+	int32 status_id=19;
+	string status_value=20;
+	int32 designation_id=21;
+	string designation_value=22;
+	int32 branch_id=23;
+	string branch_value=24;
+	int32 department_id=25;
+	string department_value=26;
+	int32 team_id=27;
+	string team_value=28;
+	string entered_by=29;
+	string entered_date=30;
+	string changed_by=31;
+	string changed_date=32;
+        string changed_by_full_name=33;
+        string entered_by_full_name=34;
+        string team_description=35;
+        string order_by_column_name = 36;
+        int32 page_size=37;
+        int32 page_number=38;
+        bool ascending=39;  
+        string istrSortColumn=40;
+        bool istrSortOrder=41; 
+}
+message protoUserSearchResultSet { 
+       int64 user_id = 1;
+	string user_ref_no =2;
+	string user_login_id =3;
+	string keyword=4;
+	string first_name=5;
+	string middle_name=6;
+	string last_name=7;
+	string father_name=8;
+	string mother_name=9;
+	string dob=10;
+	string email_id=11;
+	string contact_number=12;
+	string alternate_number=13;
+	int32 gender_id=14;
+	string gender_value=15;
+	string key_token=16;
+	string begin_date=17;
+	string end_date=18;
+	int32 status_id=19;
+	string status_value=20;
+	int32 designation_id=21;
+	string designation_value=22;
+	int32 branch_id=23;
+	string branch_value=24;
+	int32 department_id=25;
+	string department_value=26;
+	int32 team_id=27;
+	string team_value=28;
+	string entered_by=29;
+	string entered_date=30;
+	string changed_by=31;
+	string changed_date=32;
+    string team_description=35;
+    string department_description=36;
+    string branch_description=37;
+    string designation_description=38;
+   string  status_description=39;
+    string gender_description=40;
+}
+message protoUserSearchResult { 
+    repeated protoUserSearchResultSet plstprotoUserSearchResultSet =1;
+    int64 total_count =2;
+    int32 page_size=3;
+    int32 page_number=4;
+}
+
+message protoUser
+{
+	int64 user_id = 1;
+	string user_ref_no =2;
+	string user_login_id =3;
+	string keyword=4;
+	string first_name=5;
+	string middle_name=6;
+	string last_name=7;
+	string father_name=8;
+	string mother_name=9;
+	string dob=10;
+	string email_id=11;
+	string contact_number=12;
+	string alternate_number=13;
+	int32 gender_id=14;
+	string gender_value=15;
+	string key_token=16;
+	string begin_date=17;
+	string end_date=18;
+	int32 status_id=19;
+	string status_value=20;
+	int32 designation_id=21;
+	string designation_value=22;
+	int32 branch_id=23;
+	string branch_value=24;
+	int32 department_id=25;
+	string department_value=26;
+	int32 team_id=27;
+	string team_value=28;
+	string entered_by=29;
+	string entered_date=30;
+	string changed_by=31;
+	string changed_date=32;
+        string changed_by_full_name=33;
+        string entered_by_full_name=34;
+        string team_description=35;
+}
+message protoMessageConfig { 
+        int64 message_id = 1 ;
+        int32 message_no = 2 ;
+        string message = 3 ;
+        int32 message_type_id = 4 ;
+        string message_type_value = 5 ;
+        string entered_by = 6 ;
+        string entered_date = 7 ;
+        string changed_by = 8 ;
+        string changed_date = 9 ;
+        string message_type_description=10;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12;
+}
+message protoMasterConfig { 
+        int64 master_config_id = 1 ;
+        int32 m_config_id = 2 ;
+        string m_config_value = 3 ;
+        string m_config_description = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12;
+}
+message protoSubConfig { 
+        int64 sub_config_id = 1 ;
+        int32 m_config_id = 2 ;
+        string m_config_value = 3 ;
+        string m_config_description = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12;
+}
+message protoSubConfigList{
+    repeated protoSubConfig ilstprotoSubConfig=1;
+}
+
+message protoGroup { 
+        int64 group_id = 1 ;
+        string group_name = 2 ;
+        int32 status_id = 3 ;
+        string status_value = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+}
+message protoUserGroup { 
+        int64 group_id = 1 ;
+        int64 user_id = 2 ;
+        int32 status_id = 3 ;
+        string status_value = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+        int64 user_group_id=14;
+       string user_name=16;
+       string user_status=17;
+        string group_status=18;
+       string group_name=19;
+}
+
+message protoRole { 
+        int64 role_id = 1 ;
+        string role_name = 2 ;
+        int32 status_id = 3 ;
+        string status_value = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+        int32 screen_id=14;
+        string screen_value=15;
+        string screen_description=16;
+}
+
+message protoRoleGroup { 
+        int64 group_id = 1 ;
+        int64 role_id = 2 ;
+        int32 status_id = 3 ;
+        string status_value = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+        int64 role_group_id=14;
+          string role_name=16;
+       string role_status=17;
+        string group_status=18;
+       string group_name=19;
+}
+message protoResource { 
+        int64 resource_id = 1 ;
+        int32 resource_type_id = 2 ;
+        string resource_type_value = 3 ;
+        string resource_name = 4 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+        int32 screen_id=14;
+        string screen_value=15;
+        string resource_description=16;
+        string resource_type_description=17;
+
+}
+message protoRoleResource { 
+        int64 role_id = 1 ;
+        int64 role_resource_id = 2 ;
+        int32 permission_value = 3 ;
+        string entered_by = 5 ;
+        string entered_date = 6 ;
+        string changed_by = 7 ;
+        string changed_date = 8 ;
+        string changed_by_full_name=11;
+        string entered_by_full_name=12; 
+        string status_description=13;
+        int64 resource_id=14;
+       string resource_descrption=15;
+       string screen_name=16;
+       string resource_name=17;
+       string role_status=18;
+       string role_name=19;
+       string resource_type=20;
+}

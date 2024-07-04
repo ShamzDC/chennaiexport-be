@@ -1,0 +1,81 @@
+syntax = "proto3";
+option csharp_namespace = "CHEExportsProto";
+import "google/protobuf/Empty.proto";
+import "CommonTypes.proto";
+import "Admin.proto";
+
+package AdminService;
+
+service AdminService{
+	rpc AuthenticateUser(Admin.protoLoginCredentials) returns (Admin.protoLoggedInDetails);
+	rpc CreateNewUser(google.protobuf.Empty) returns (Admin.protoUser);
+	rpc SaveUser(Admin.protoUser) returns (Admin.protoUser);
+	rpc UpdateUser(Admin.protoUser) returns (Admin.protoUser);
+	rpc OpenUser(CommonTypes.protoLongData) returns (Admin.protoUser);
+	rpc DeleteUser(CommonTypes.protoLongData) returns (Admin.protoUser);
+rpc CreateNewMasterConfig(google.protobuf.Empty) returns (Admin.protoMasterConfig);
+rpc SaveMasterConfig(Admin.protoMasterConfig) returns (Admin.protoMasterConfig);
+rpc UpdateMasterConfig(Admin.protoMasterConfig) returns (Admin.protoMasterConfig);
+rpc OpenMasterConfig(CommonTypes.protoLongData) returns (Admin.protoMasterConfig);
+rpc DeleteMasterConfig(CommonTypes.protoLongData) returns (Admin.protoMasterConfig);
+
+rpc CreateNewMessageConfig(google.protobuf.Empty) returns (Admin.protoMessageConfig);
+rpc SaveMessageConfig(Admin.protoMessageConfig) returns (Admin.protoMessageConfig);
+rpc UpdateMessageConfig(Admin.protoMessageConfig) returns (Admin.protoMessageConfig);
+rpc OpenMessageConfig(CommonTypes.protoLongData) returns (Admin.protoMessageConfig);
+rpc DeleteMessageConfig(CommonTypes.protoLongData) returns (Admin.protoMessageConfig);
+
+rpc CreateNewSubConfig(google.protobuf.Empty) returns (Admin.protoSubConfig);
+rpc SaveSubConfig(Admin.protoSubConfig) returns (Admin.protoSubConfig);
+rpc UpdateSubConfig(Admin.protoSubConfig) returns (Admin.protoSubConfig);
+rpc OpenSubConfig(CommonTypes.protoLongData) returns (Admin.protoSubConfig);
+rpc DeleteSubConfig(CommonTypes.protoLongData) returns (Admin.protoSubConfig);
+
+//rpc SearchGroup(CommonTypes.protoSearchParams) returns (Admin.protoGroupSearchResult);
+rpc CreateNewGroup(google.protobuf.Empty) returns (Admin.protoGroup);
+rpc SaveGroup(Admin.protoGroup) returns (Admin.protoGroup);
+rpc UpdateGroup(Admin.protoGroup) returns (Admin.protoGroup);
+rpc OpenGroup(CommonTypes.protoLongData) returns (Admin.protoGroup);
+rpc DeleteGroup(CommonTypes.protoLongData) returns (Admin.protoGroup);
+
+
+
+//rpc SearchUserGroup(CommonTypes.protoSearchParams) returns (Admin.protoUserGroupSearchResult);
+rpc CreateNewUserGroup(google.protobuf.Empty) returns (Admin.protoUserGroup);
+rpc SaveUserGroup(Admin.protoUserGroup) returns (Admin.protoUserGroup);
+rpc UpdateUserGroup(Admin.protoUserGroup) returns (Admin.protoUserGroup);
+rpc OpenUserGroup(CommonTypes.protoLongData) returns (Admin.protoUserGroup);
+rpc DeleteUserGroup(CommonTypes.protoLongData) returns (Admin.protoUserGroup);
+
+
+//rpc SearchRole(CommonTypes.protoSearchParams) returns (Admin.protoRoleSearchResult);
+rpc CreateNewRole(google.protobuf.Empty) returns (Admin.protoRole);
+rpc SaveRole(Admin.protoRole) returns (Admin.protoRole);
+rpc UpdateRole(Admin.protoRole) returns (Admin.protoRole);
+rpc OpenRole(CommonTypes.protoLongData) returns (Admin.protoRole);
+rpc DeleteRole(CommonTypes.protoLongData) returns (Admin.protoRole);
+
+//rpc SearchRoleGroup(CommonTypes.protoSearchParams) returns (Admin.protoRoleGroupSearchResult);
+rpc CreateNewRoleGroup(google.protobuf.Empty) returns (Admin.protoRoleGroup);
+rpc SaveRoleGroup(Admin.protoRoleGroup) returns (Admin.protoRoleGroup);
+rpc UpdateRoleGroup(Admin.protoRoleGroup) returns (Admin.protoRoleGroup);
+rpc OpenRoleGroup(CommonTypes.protoLongData) returns (Admin.protoRoleGroup);
+rpc DeleteRoleGroup(CommonTypes.protoLongData) returns (Admin.protoRoleGroup);
+
+
+//rpc SearchResource(CommonTypes.protoSearchParams) returns (Admin.protoResourceSearchResult);
+rpc CreateNewResource(google.protobuf.Empty) returns (Admin.protoResource);
+rpc SaveResource(Admin.protoResource) returns (Admin.protoResource);
+rpc UpdateResource(Admin.protoResource) returns (Admin.protoResource);
+rpc OpenResource(CommonTypes.protoLongData) returns (Admin.protoResource);
+rpc DeleteResource(CommonTypes.protoLongData) returns (Admin.protoResource);
+
+//rpc SearchRoleResource(CommonTypes.protoSearchParams) returns (Admin.protoRoleResourceSearchResult);
+rpc CreateNewRoleResource(google.protobuf.Empty) returns (Admin.protoRoleResource);
+rpc SaveRoleResource(Admin.protoRoleResource) returns (Admin.protoRoleResource);
+rpc UpdateRoleResource(Admin.protoRoleResource) returns (Admin.protoRoleResource);
+rpc OpenRoleResource(CommonTypes.protoLongData) returns (Admin.protoRoleResource);
+rpc DeleteRoleResource(CommonTypes.protoLongData) returns (Admin.protoRoleResource);
+
+}
+  
